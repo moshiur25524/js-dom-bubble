@@ -30,7 +30,7 @@ function makeGoldenRod() {
     document.body.style.backgroundColor = 'goldenrod';
 }
 
-// add eventLisiner
+// add eventLisiner by using direct function 
 
 const hotPinkButton = document.getElementById('make-hotpink-button');
 hotPinkButton.addEventListener('click', function makePink() {
